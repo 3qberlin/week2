@@ -1,0 +1,47 @@
+.d-flex {
+  display: flex;
+}
+
+.justify- {
+  &center {
+    justify-content: center;
+  }
+  &between {
+    justify-content: space-between;
+  }
+  &evenly {
+    justify-content: space-evenly;
+  }
+  &end {
+    justify-content: flex-end;
+  }
+}
+
+.align- {
+  &center {
+    align-items: center;
+  }
+  &end{
+    align-items: flex-end;
+  }
+}
+
+.gap- {
+  &20 {
+    gap: $s20;
+  }
+  &24 {
+    gap: $s24;
+  }
+}
+
+.inline-block{
+  display:inline-block;
+}
+
+.wrap-{
+  flex-wrap:wrap;
+  &no{
+    flex-wrap:nowrap;
+  }
+}

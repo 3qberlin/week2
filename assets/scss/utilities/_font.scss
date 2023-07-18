@@ -1,0 +1,52 @@
+.font- {
+  &16 {
+    font-size: $s16;
+  }
+  &20 {
+    font-size: $s20;
+  }
+  &24 {
+    font-size: $s24;
+  }
+  &30 {
+    font-size: $s30;
+  }
+  &36 {
+    font-size: $s36;
+  }
+  &48 {
+    font-size: $s48;
+  }
+  &64 {
+    font-size: $s64;
+  }
+  &96 {
+    font-size: $s96;
+  }
+  &128 {
+    font-size: $s128;
+  }
+}
+
+.text-align- {
+  &center {
+    text-align: center;
+  }
+  &right{
+    text-align: right;
+  }
+}
+
+.vertical-align-{
+  &middle{
+    vertical-align: middle;
+  }
+}
+
+.decoration-none{
+  text-decoration: none;
+}
+
+.text-nowrap{
+  white-space:nowrap
+}

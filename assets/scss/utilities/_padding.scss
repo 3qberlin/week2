@@ -1,0 +1,52 @@
+.p {
+  &l- {
+    &16 {
+      padding-left: $s16;
+    }
+    &24 {
+      padding-left: $s24;
+    }
+  }
+  &r- {
+    &12 {
+      padding-right: $s12;
+    }
+    &16 {
+      padding-right: $s16;
+    }
+    &24 {
+      padding-right: $s24;
+    }
+  }
+  &t- {
+    &12 {
+      padding-top: $s12;
+    }
+    &16 {
+      padding-top: $s16;
+    }
+    &40 {
+      padding-top: $s40;
+    }
+  }
+  &b- {
+    &12 {
+      padding-bottom: $s12;
+    }
+    &16 {
+      padding-bottom: $s16;
+    }
+    &24 {
+      padding-bottom: $s24;
+    }
+    &40 {
+      padding-bottom: $s40;
+    }
+  }
+}
+
+.p- {
+  &16 {
+    padding: $size;
+  }
+}

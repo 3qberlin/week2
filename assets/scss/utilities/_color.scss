@@ -1,0 +1,23 @@
+.color- {
+  &white {
+    color: #ffffff;
+  }
+  &green {
+    color: #00ffa3;
+  }
+  &black {
+    color: #000000;
+  }
+  &gray {
+    color: #d1d1d1;
+  }
+}
+
+.bg-color-{
+  &white{
+    background-color: #fff;
+  }
+  &black{
+    background-color: black;
+  }
+}
